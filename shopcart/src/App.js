@@ -7,6 +7,7 @@ import products, { siteName, cartIcon } from "./products";
 import Navbar from "./navbar";
 import DisplayProducts from "./displayProducts";
 import Cart from "./cart";
+import SignIn from "./SignIn";
 
 class App extends Component {
   constructor(props) {
@@ -65,6 +66,10 @@ class App extends Component {
             <Route
               path="/cart"
               element={<Cart products={products} />}
+            />
+            <Route
+              path="/checkout"
+              element={<SignIn />}
             />
           </Routes>
         </div>
