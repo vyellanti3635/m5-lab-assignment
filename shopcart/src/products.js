@@ -5,6 +5,7 @@ const products = [
     id: 1,
     image: './products/cologne.jpg',
     desc: 'Unisex Cologne',
+    price: 45.99,
     quantity: 0,
     ratings: '4.2'
   },
@@ -12,6 +13,7 @@ const products = [
     id: 2,
     image: './products/iwatch.jpg',
     desc: 'Apple iWatch',
+    price: 299.00,
     quantity: 0,
     ratings: '3.5'
   },
@@ -19,6 +21,7 @@ const products = [
     id: 3,
     image: './products/mug.jpg',
     desc: 'Unique Mug',
+    price: 12.50,
     quantity: 0,
     ratings: '4.0'
   },
@@ -26,6 +29,7 @@ const products = [
     id: 4,
     image: './products/wallet.jpg',
     desc: 'Mens Wallet',
+    price: 34.99,
     quantity: 0,
     ratings: '4.8'
   }
